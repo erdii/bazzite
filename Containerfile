@@ -442,7 +442,8 @@ RUN --mount=type=cache,dst=/var/cache/rpm-ostree \
         ydotool \
         yafti \
         stress-ng \
-        lsb_release && \
+        lsb_release \
+        unl0kr && \
     rpm-ostree install \
         ublue-update && \
     mkdir -p /etc/xdg/autostart && \
